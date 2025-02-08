@@ -47,6 +47,8 @@ dependencies {
     // compiler
     ksp(libs.room.compiler)
 
+    implementation("androidx.compose.material3:material3-window-size-class:1.3.1")
+
     // android stuff
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
